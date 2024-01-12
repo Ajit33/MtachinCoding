@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./App.css";
+
 import Accoridian from "./components/accodium";
 
 import ImageSlider from "./components/accodium/img-slider";

@@ -1,5 +1,7 @@
 import { useState } from "react";
 import Menulist from "./Menulist";
+import {FaPlus,FaMinus} from 'react-icons/fa'
+import "./style.css";
 
 const MenuItem = ({ item }) => {
   const [showchildren, setshowchildern] = useState({});
@@ -16,7 +18,7 @@ const MenuItem = ({ item }) => {
         {item && item.children && item.children.length ? (
           <span onClick={() => handelchildernToggel(item.label)}>
             {
-               showchildren[item.label] ? '-':'+'
+               showchildren[item.label] ? <FaMinus color='white' size={25} />:<FaPlus color='white' size={25} />
             }
           </span>
         ) : null}
