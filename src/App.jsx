@@ -4,6 +4,8 @@ import Accoridian from "./components/accodium";
 
 import ImageSlider from "./components/accodium/img-slider";
 import LoadMoreButton from "./components/loadMoreButton";
+import Treeview from "./components/Treeview";
+import menus from "./components/Treeview/data";
 
 
 function App() {
@@ -18,7 +20,9 @@ function App() {
         page={"1"}
         limit={"10"} */}
       {/* /> */}
-      <LoadMoreButton />
+      {/* <LoadMoreButton /> */}
+      {/* Treeview */}
+      <Treeview menu={menus} />
     </>
   );
 }
