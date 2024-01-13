@@ -6,6 +6,8 @@ import ImageSlider from "./components/accodium/img-slider";
 import LoadMoreButton from "./components/loadMoreButton";
 import Treeview from "./components/Treeview";
 import menus from "./components/Treeview/data";
+import ThemeSwitcher from "./components/Theme-switcher";
+
 
 
 function App() {
@@ -22,7 +24,8 @@ function App() {
       {/* /> */}
       {/* <LoadMoreButton /> */}
       {/* Treeview */}
-      <Treeview menu={menus} />
+      {/* <Treeview menu={menus} /> */}
+      <ThemeSwitcher />
     </>
   );
 }
