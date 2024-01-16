@@ -2,11 +2,12 @@ import { useState } from "react";
 
 import Accoridian from "./components/accodium";
 
-import ImageSlider from "./components/accodium/img-slider";
+import ImageSlider from "./components/img-slider";
 import LoadMoreButton from "./components/loadMoreButton";
 import Treeview from "./components/Treeview";
 import menus from "./components/Treeview/data";
 import ThemeSwitcher from "./components/Theme-switcher";
+import ScrollIndicator from "./components/scrollIndicator";
 
 
 
@@ -16,16 +17,23 @@ function App() {
   return (
     <>
       {/* <Accoridian /> */}
+
       {/* <Practice /> */}
+
       {/* <ImageSlider
         url={"https://picsum.photos/v2/list"}
         page={"1"}
         limit={"10"} */}
+
       {/* /> */}
       {/* <LoadMoreButton /> */}
-      {/* Treeview */}
+
+ 
       {/* <Treeview menu={menus} /> */}
-      <ThemeSwitcher />
+
+      {/* <ThemeSwitcher /> */}
+
+      <ScrollIndicator url={"https://dummyjson.com/products?limit=100"}/>
     </>
   );
 }
