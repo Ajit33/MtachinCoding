@@ -8,6 +8,7 @@ import Treeview from "./components/Treeview";
 import menus from "./components/Treeview/data";
 import ThemeSwitcher from "./components/Theme-switcher";
 import ScrollIndicator from "./components/scrollIndicator";
+import TabTest from "./components/custom-tabs/tab-test";
 
 
 
@@ -33,7 +34,8 @@ function App() {
 
       {/* <ThemeSwitcher /> */}
 
-      <ScrollIndicator url={"https://dummyjson.com/products?limit=100"}/>
+      {/* <ScrollIndicator url={"https://dummyjson.com/products?limit=100"}/> */}
+      <TabTest />
     </>
   );
 }
