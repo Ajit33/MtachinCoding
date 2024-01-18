@@ -1,5 +1,5 @@
 import { useState } from "react";
-
+import './tabs.css';
 const Tabs = ({ tabsContent, onChange }) => {
 
 
@@ -12,12 +12,12 @@ const Tabs = ({ tabsContent, onChange }) => {
     <div className="wrapper">
       <div className="heading">
         {tabsContent.map((tabitems,index) => (
-          <div key={tabitems.label}>
-            <span className="label" onClick={()=>handelOnClick(index)}>{tabitems.label}</span>
+          <div className={`tab-item ${currentTabIndex==index?"active" :""}`} key={tabitems.label} onClick={()=>handelOnClick(index)}>
+            <span className="label" >{tabitems.label}</span>
           </div>
         ))}
       </div>
-      <div className="content">
+      <div className="result">
           {
             tabsContent[currentTabIndex] && tabsContent[currentTabIndex].content
           }
