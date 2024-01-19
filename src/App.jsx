@@ -10,6 +10,7 @@ import ThemeSwitcher from "./components/Theme-switcher";
 import ScrollIndicator from "./components/scrollIndicator";
 import TabTest from "./components/custom-tabs/tab-test";
 import ModalTest from "./components/CustomModalPopup/modal-test";
+import GitHubProfileFinder from "./components/gitHubFinder";
 
 
 
@@ -39,7 +40,9 @@ function App() {
 
       {/* <TabTest /> */}
 
-      <ModalTest />
+      {/* <ModalTest /> */}
+
+      <GitHubProfileFinder />
     </>
   );
 }
