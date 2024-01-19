@@ -9,6 +9,7 @@ import menus from "./components/Treeview/data";
 import ThemeSwitcher from "./components/Theme-switcher";
 import ScrollIndicator from "./components/scrollIndicator";
 import TabTest from "./components/custom-tabs/tab-test";
+import ModalTest from "./components/CustomModalPopup/modal-test";
 
 
 
@@ -35,7 +36,10 @@ function App() {
       {/* <ThemeSwitcher /> */}
 
       {/* <ScrollIndicator url={"https://dummyjson.com/products?limit=100"}/> */}
-      <TabTest />
+
+      {/* <TabTest /> */}
+
+      <ModalTest />
     </>
   );
 }
