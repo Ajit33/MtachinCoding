@@ -13,6 +13,7 @@ import ModalTest from "./components/CustomModalPopup/modal-test";
 import GitHubProfileFinder from "./components/gitHubFinder";
 import SearchAutocomplete from "./components/SerachAutoComplete";
 import TikTakToe from "./components/TictakToo";
+import UseFetchHookTest from "./components/UseFetchHook/test";
 
 
 
@@ -48,7 +49,9 @@ function App() {
 
       {/* <SearchAutocomplete /> */}
 
-      <TikTakToe />
+      {/* <TikTakToe /> */}
+
+      <UseFetchHookTest />
     </>
   );
 }
