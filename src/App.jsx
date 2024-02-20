@@ -14,6 +14,7 @@ import GitHubProfileFinder from "./components/gitHubFinder";
 import SearchAutocomplete from "./components/SerachAutoComplete";
 import TikTakToe from "./components/TictakToo";
 import UseFetchHookTest from "./components/UseFetchHook/test";
+import FetchUser from "./components/hoc/fetch-user/FetchUser";
 
 
 
@@ -51,7 +52,10 @@ function App() {
 
       {/* <TikTakToe /> */}
 
-      <UseFetchHookTest />
+      {/* <UseFetchHookTest /> */}
+
+
+      <FetchUser />
     </>
   );
 }
